@@ -44,7 +44,7 @@
            
  <form action="<?php echo U('index/Wj/submit');?>" method="post">          
 <?php if(is_array($tm)): $i = 0; $__LIST__ = $tm;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h1>问题：<?php echo ($li["title"]); ?></h1>
-
+         请选择：
 		 <select name="<?php echo ($li["id"]); ?>">
 		 <option value="1">A:<?php echo ($li["A"]); ?></option>
 		 <option value="2">B:<?php echo ($li["B"]); ?></option>

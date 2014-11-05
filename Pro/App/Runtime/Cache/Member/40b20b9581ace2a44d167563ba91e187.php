@@ -17,7 +17,7 @@
 <div class="headin">
 <div class="sojump_logo">
                     <div class="sojump_image">
-                        <h1>逗比的问卷调查网站</h1>
+                        <h1>问答社交服务</h1>
                     </div>
 </div>
 <div id="NMenu">
@@ -48,7 +48,7 @@ B：<?php echo ($li["B"]); ?>
 C：<?php echo ($li["C"]); ?>
 D：<?php echo ($li["D"]); ?>
 排序：<?php echo ($li["paixu"]); ?>
-<a href="/index.php/member/fabu/dwenti/id/<?php echo ($li["id"]); ?>">删除</a><?php endforeach; endif; else: echo "" ;endif; ?>
+<a href="/index.php/member/fabu/dwenti/id/<?php echo ($li["id"]); ?>">删除</a><br><?php endforeach; endif; else: echo "" ;endif; ?>
  <form class="form-signin" name="huafei" action="<?php echo U('member/fabu/addwenti');?>" method="post" style="max-width: 450px;">
         
 		 <div class="mb20">问题名称:&nbsp;&nbsp;<input type="text" class="form"  name="title"  ></div>

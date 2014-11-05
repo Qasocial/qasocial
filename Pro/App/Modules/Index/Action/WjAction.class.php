@@ -34,7 +34,7 @@ class WjAction extends CommonAction
 		   if($ans==$rightans){
 		   $i=$i+1;
 		   $score+=$wentifenshu;}
-		   $data[$key]["ans"]=$ans;
+		   $data[$key]["ans2"]=$ans;
 		   $data[$key]["wentifenshu"]=$score;
           }
 		$this->assign('data',$data);

@@ -23,8 +23,14 @@
  总共<{$count}>个问题，你答对了 <{$right}> 个问题， 得分为 <{$score}> 分。
  <volist name="data" id="li">
 <h3>题目：<{$li.title}></h3>
-
-		<{$li.ans}>
+        正确答案为<if condition="$li.ans eq 1">A
+		<elseif condition="$li.ans eq 2" />B
+		<elseif condition="$li.ans eq 3" />C
+		<elseif condition="$li.ans eq 4" />D</if>，
+		您选择了<if condition="$li.ans2 eq 1">A
+		<elseif condition="$li.ans2 eq 2" />B
+		<elseif condition="$li.ans2 eq 3" />C
+		<elseif condition="$li.ans2 eq 4" />D</if>
 
 </volist>
 

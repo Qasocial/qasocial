@@ -43,10 +43,22 @@ class FabuAction extends CommonAction{
 			$model = M('wenti');
             $model->create();
             $id=$model->add();
+			$wenjuanid=$_POST['wenjuanid'];
+			$fenshu=$_POST['wentifenshu'];
+			$tol = M('wenjuan')->where("id=$wenjuanid")->find();
+			$data['fenshu'] = $tol['fenshu'] +$fenshu;
+            M('wenjuan')->where("id=$wenjuanid")->save($data);
 			$this->success('问题添加成功');
 	}
 	public function dwenti(){//delete
 	        $id=$_GET['id'];
+			$model = M('wenti');
+            $data=M('wenti')->where("id=$id")->find();
+			$wenjuanid=$data['wenjuanid'];
+			$score=$data['wentifenshu'];
+			$tol = M('wenjuan')->where("id=$wenjuanid")->find();
+			$save['fenshu'] = $tol['fenshu'] -$score;
+            M('wenjuan')->where("id=$wenjuanid")->save($save);
 			$model = M('wenti');
             M('wenti')->where("id=$id")->delete();
 			$this->success('问题删除成功');
