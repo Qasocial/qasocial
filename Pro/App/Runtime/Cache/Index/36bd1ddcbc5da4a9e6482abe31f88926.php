@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>问卷酷</title>
+<title>	QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -44,7 +44,7 @@
            
  <form action="<?php echo U('index/Wj/submit');?>" method="post">          
 <?php if(is_array($tm)): $i = 0; $__LIST__ = $tm;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h1>问题：<?php echo ($li["title"]); ?></h1>
-
+         请选择：
 		 <select name="<?php echo ($li["id"]); ?>">
 		 <option value="1">A:<?php echo ($li["A"]); ?></option>
 		 <option value="2">B:<?php echo ($li["B"]); ?></option>
