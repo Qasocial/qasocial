@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>问卷酷</title>
+<title>	QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -41,10 +41,22 @@
 
 <h1>题目：<?php echo ($wj["name"]); ?></h1>
 <h1>发布人：<?php echo ($wj["fbr"]); ?></h1>
- 总共<?php echo ($count); ?>个问题，你答对了 <?php echo ($right); ?> 个问题， 得分为 <?php echo ($score); ?> 分。
- <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h3>题目：<?php echo ($li["title"]); ?></h3>
 
-		<?php echo ($li["ans"]); endforeach; endif; else: echo "" ;endif; ?>
+ <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h3>题目：<?php echo ($li["title"]); ?></h3>
+        正确答案为<?php if($li["ans"] == 1): ?>A
+		<?php elseif($li["ans"] == 2): ?>B
+		<?php elseif($li["ans"] == 3): ?>C
+		<?php elseif($li["ans"] == 4): ?>D<?php endif; ?>，
+		您选择了<?php if($li["ans2"] == 1): ?>A
+		<?php elseif($li["ans2"] == 2): ?>B
+		<?php elseif($li["ans2"] == 3): ?>C
+		<?php elseif($li["ans2"] == 4): ?>D<?php endif; endforeach; endif; else: echo "" ;endif; ?>
+<br><br>
+ 总共<?php echo ($count); ?>个问题，你答对了 <?php echo ($right); ?> 个问题， 得分为 <?php echo ($score); ?> 分。
+<br><br>
+<?php if($score == 0): ?>再接再厉！！！！
+<?php else: ?>
+ 回答的不错！！！！！<?php endif; ?>
 
 </div>
 

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-    <title>EasyCMS内容管理系统</title>
+    <title>问答社交服务</title>
     <link href="/Css/bootstrap.css" rel="stylesheet">
     <link href="/Css/style.css" rel="stylesheet">
     <script src="/Js/jquery-1.7.2.js"></script>
