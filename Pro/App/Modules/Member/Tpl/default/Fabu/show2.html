@@ -22,11 +22,15 @@
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">发布人：<{$wenjuan.fbr}></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
 <volist name="wenti" id="li">
-标题：<{$li.title}>
-A：<{$li.A}>
-B：<{$li.B}>
-C：<{$li.C}>
-D：<{$li.D}>
+标题：<{$li.title}>&nbsp;&nbsp;
+A：<{$li.A}>&nbsp;&nbsp;
+B：<{$li.B}>&nbsp;&nbsp;
+<if condition="$li.C eq ''">
+<else />
+C：<{$li.C}>&nbsp;&nbsp;</if>
+<if condition="$li.D eq ''">
+<else />
+D：<{$li.D}>&nbsp;&nbsp;</if>
 排序：<{$li.paixu}>
 <a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a><br>
 </volist>

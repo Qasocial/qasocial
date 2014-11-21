@@ -48,8 +48,10 @@
 		 <select name="<?php echo ($li["id"]); ?>">
 		 <option value="1">A:<?php echo ($li["A"]); ?></option>
 		 <option value="2">B:<?php echo ($li["B"]); ?></option>
-		 <option value="3">C:<?php echo ($li["C"]); ?></option>
-		 <option value="4">D:<?php echo ($li["D"]); ?></option>
+		 <?php if($li["C"] == ''): else: ?>
+		 <option value="3">C:<?php echo ($li["C"]); ?></option><?php endif; ?>
+		 <?php if($li["D"] == ''): else: ?>
+		 <option value="4">D:<?php echo ($li["D"]); ?></option><?php endif; ?>
 		 </select><?php endforeach; endif; else: echo "" ;endif; ?>
 <input type="hidden" name="id" value="<?php echo ($wj["id"]); ?>">
  <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">提交</button></div>

@@ -28,8 +28,12 @@
 		 <select name="<{$li.id}>">
 		 <option value="1">A:<{$li.A}></option>
 		 <option value="2">B:<{$li.B}></option>
-		 <option value="3">C:<{$li.C}></option>
-		 <option value="4">D:<{$li.D}></option>
+		 <if condition="$li.C eq ''">
+         <else />
+		 <option value="3">C:<{$li.C}></option></if>
+		 <if condition="$li.D eq ''">
+         <else />
+		 <option value="4">D:<{$li.D}></option></if>
 		 </select>
 </volist>
 <input type="hidden" name="id" value="<{$wj.id}>">

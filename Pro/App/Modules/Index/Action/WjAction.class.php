@@ -8,7 +8,8 @@ class WjAction extends CommonAction
 	    if(!$_SESSION[C('USER_AUTH_KEY_F')]){
 			$this->error("请先登陆");
 		}
-        $all=M('wenjuan')->order('id desc')->select();
+		$username=$_SESSION[C('USER_AUTH_KEY_F')];
+        $all=M('wenjuan')->where("fbr='".$username."'")->order('id desc')->select();
         $this->assign('all',$all);
 		//显示模板	
 		$this->display('all');
