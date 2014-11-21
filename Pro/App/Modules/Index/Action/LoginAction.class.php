@@ -33,9 +33,6 @@ class LoginAction extends Action{
 		$where['username']=$name['username'];
 		$where['password']=md5($name['password']);
 		$result =$User->where($where)->find();
-		if($result['islock']==1){
-			$this->error('您的账号已经被管理锁定，请联系管理员',U('Login/index'));
-		}
 		if($result!=null){
 			$_SESSION[C('USER_AUTH_KEY_F')]=$result['username'];
 			$_SESSION[C('USER_AUTH_KEY_ID')]=$result["user_id"];

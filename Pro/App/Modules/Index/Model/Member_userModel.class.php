@@ -1,6 +1,5 @@
 <?php 
 /**
- * 自定义会员模型类
  * @author  <[c@easycms.cc]>
  */
 class Member_userModel extends Model{
@@ -11,8 +10,7 @@ class Member_userModel extends Model{
 		 array('password','require','密码必须填写！'),  
 		 array('password','require','确认密码必须填写！'),
 		 array('verify','require','验证码必须填写！'), 
-		 array('repassword','password','确认密码不正确',0,'confirm'),
-		 array('email','email',"邮箱格式不正确"),  
+		 array('repassword','password','确认密码不正确',0,'confirm'), 
 		 array('pwd','require','密码必须填写！'),
 		 array('rpwd','pwd','确认密码不正确',0,'confirm'),
 
