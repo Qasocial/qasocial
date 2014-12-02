@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>第二步</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
 <script src="/Js/jquery.js"></script>
 <script src="/Js/bootstrap.min.js"></script>
@@ -18,19 +18,19 @@
 </header>
 <div class="container">
 <h4  class="mb20"style="font-family:'微软雅黑';font-size:20px;">第二步，添加问题</h4>
-<h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;"><{$wenjuan.name}></h3>
+<h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">问卷名称：<{$wenjuan.name}></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">发布人：<{$wenjuan.fbr}></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
 <volist name="wenti" id="li">
-标题：<{$li.title}>
-A：<{$li.A}>
-B：<{$li.B}>
-C：<{$li.C}>
-D：<{$li.D}>
+标题：<{$li.title}>&nbsp;&nbsp;
+A：<{$li.A}>&nbsp;&nbsp;
+B：<{$li.B}>&nbsp;&nbsp;
+C：<{$li.C}>&nbsp;&nbsp;
+D：<{$li.D}>&nbsp;&nbsp;
 排序：<{$li.paixu}>
-<a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a>
+<a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a><br>
 </volist>
- <form class="form-signin" name="huafei" action="<{:U('member/fabu/addwenti')}>" method="post" style="max-width: 450px;">
+ <form class="form-signin" name="wenjuan" action="<{:U('member/fabu/addwenti')}>" method="post" style="max-width: 450px;">
         
 		 <div class="mb20">问题名称:&nbsp;&nbsp;<input type="text" class="form"  name="title"  ></div>
 		 <div class="mb20">A:&nbsp;&nbsp;<input type="text" class="form"  name="A"  ></div>
@@ -55,6 +55,7 @@ D：<{$li.D}>
           <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button></div>
       </form>
         <div style="text-align:center;margin-top:20px;"><a href="/" class="btn" >返回首页</a></div>
+		<div style="text-align:center;margin-top:20px;"><a href="/index.php/index/Wj/detials/id/<{$wenjuan.id}>" class="btn" >确认问卷</a></div>
 
 
 </div>
