@@ -23,6 +23,9 @@ class WjAction extends CommonAction
 		//显示模板	
 		$this->display('detials');
 	}
+	Public function rank(){
+	    $this->display('rank');
+	}
 	Public function submit(){
 	    $id=$_POST['id'];
 		$wj=M('wenjuan')->where("id=$id")->find();

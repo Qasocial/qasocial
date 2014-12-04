@@ -37,26 +37,7 @@
 </div>
   <!-- 导航结束 --> 
 </header>
-<div class="container">
 
-<h1>题目：<?php echo ($wj["name"]); ?></h1>
-<h1>发布人：<?php echo ($wj["fbr"]); ?></h1>
-           
- <form action="<?php echo U('index/Wj/submit');?>" method="post">          
-<?php if(is_array($tm)): $i = 0; $__LIST__ = $tm;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h1>问题：<?php echo ($li["title"]); ?></h1>
-         请选择：
-		 <select name="<?php echo ($li["id"]); ?>">
-		 <option value="1">A:<?php echo ($li["A"]); ?></option>
-		 <option value="2">B:<?php echo ($li["B"]); ?></option>
-		 <?php if($li["C"] == ''): else: ?>
-		 <option value="3">C:<?php echo ($li["C"]); ?></option><?php endif; ?>
-		 <?php if($li["D"] == ''): else: ?>
-		 <option value="4">D:<?php echo ($li["D"]); ?></option><?php endif; ?>
-		 </select><?php endforeach; endif; else: echo "" ;endif; ?>
-<input type="hidden" name="id" value="<?php echo ($wj["id"]); ?>">
- <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">提交</button></div>
-</form>
-</div>
 
 <!-- footer start -->
 <footer id="footer">
