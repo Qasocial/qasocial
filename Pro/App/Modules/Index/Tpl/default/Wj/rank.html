@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
 <script src="/Js/jquery.js"></script>
 <script src="/Js/bootstrap.min.js"></script>
@@ -16,8 +16,36 @@
  	<include file="Public:header" />
   <!-- 导航结束 --> 
 </header>
+<div class="container">
 
+<h1>问卷名：<{$wj.name}></h1>
+<h1>发布人：<{$wj.fbr}></h1>
 
+            <table class="table">
+				<thead>
+					<tr>
+						<th>
+							答题人
+						</th>
+						<th>
+							分数
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+				<volist name="pm" id="li">
+					<tr class="success">
+						<td>
+							<{$li.dtr}>
+						</td>
+						<td>
+							<{$li.score}>
+						</td>
+					</tr>
+				</volist>
+				</tbody>
+			</table>
+</div>
 <!-- footer start -->
 <include file="Public:footer" />
 <!-- footer end -->

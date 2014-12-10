@@ -42,13 +42,11 @@
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">问卷名称：<?php echo ($wenjuan["name"]); ?></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">发布人：<?php echo ($wenjuan["fbr"]); ?></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
-<?php if(is_array($wenti)): $i = 0; $__LIST__ = $wenti;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>标题：<?php echo ($li["title"]); ?>&nbsp;&nbsp;
-A：<?php echo ($li["A"]); ?>&nbsp;&nbsp;
-B：<?php echo ($li["B"]); ?>&nbsp;&nbsp;
-<?php if($li["C"] == ''): else: ?>
-C：<?php echo ($li["C"]); ?>&nbsp;&nbsp;<?php endif; ?>
-<?php if($li["D"] == ''): else: ?>
-D：<?php echo ($li["D"]); ?>&nbsp;&nbsp;<?php endif; ?>
+<?php if(is_array($wenti)): $i = 0; $__LIST__ = $wenti;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>标题：<?php echo ($li["title"]); ?>
+A：<?php echo ($li["A"]); ?>
+B：<?php echo ($li["B"]); ?>
+C：<?php echo ($li["C"]); ?>
+D：<?php echo ($li["D"]); ?>
 排序：<?php echo ($li["paixu"]); ?>
 <a href="/index.php/member/fabu/dwenti/id/<?php echo ($li["id"]); ?>">删除</a><br><?php endforeach; endif; else: echo "" ;endif; ?>
  <form class="form-signin" name="wenjuan" action="<?php echo U('member/fabu/addwenti');?>" method="post" style="max-width: 450px;">
@@ -76,7 +74,6 @@ D：<?php echo ($li["D"]); ?>&nbsp;&nbsp;<?php endif; ?>
           <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button></div>
       </form>
         <div style="text-align:center;margin-top:20px;"><a href="/" class="btn" >返回首页</a></div>
-		<div style="text-align:center;margin-top:20px;"><a href="/index.php/index/Wj/detials/id/<?php echo ($wenjuan["id"]); ?>" class="btn" >确认问卷</a></div>
 
 
 </div>

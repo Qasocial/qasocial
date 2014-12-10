@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>QAsocial</title>
+<title>	QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -48,10 +48,8 @@
 		 <select name="<?php echo ($li["id"]); ?>">
 		 <option value="1">A:<?php echo ($li["A"]); ?></option>
 		 <option value="2">B:<?php echo ($li["B"]); ?></option>
-		 <?php if($li["C"] == ''): else: ?>
-		 <option value="3">C:<?php echo ($li["C"]); ?></option><?php endif; ?>
-		 <?php if($li["D"] == ''): else: ?>
-		 <option value="4">D:<?php echo ($li["D"]); ?></option><?php endif; ?>
+		 <option value="3">C:<?php echo ($li["C"]); ?></option>
+		 <option value="4">D:<?php echo ($li["D"]); ?></option>
 		 </select><?php endforeach; endif; else: echo "" ;endif; ?>
 <input type="hidden" name="id" value="<?php echo ($wj["id"]); ?>">
  <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">提交</button></div>

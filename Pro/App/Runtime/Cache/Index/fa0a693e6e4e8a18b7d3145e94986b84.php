@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>QAsocial</title>
+<title>	QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -57,7 +57,7 @@
 <?php if($score == 0): ?>再接再厉！！！！
 <?php else: ?>
  回答的不错！！！！！<?php endif; ?>
-<a href="/index.php/index/Wj/rank/id/<?php echo ($li["id"]); ?>">查看排名</a>
+
 </div>
 
 <!-- footer start -->
