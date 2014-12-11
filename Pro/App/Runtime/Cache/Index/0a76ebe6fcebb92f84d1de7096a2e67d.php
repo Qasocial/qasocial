@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>第一步</title>
+<title>QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -39,22 +39,53 @@
 </header>
 <div class="container">
 
+<h1>问卷名：<?php echo ($wj["name"]); ?></h1>
+<h1>发布人：<?php echo ($wj["fbr"]); ?></h1>
 
- <form class="form-signin" name="fbr" action="<?php echo U('member/fabu/add');?>" method="post" style="max-width: 450px;">
-        <h4  class="mb20"style="font-family:'微软雅黑';font-size:20px;">第一步，添加基本信息</h4>
-		<div class="mb20">问卷名称:&nbsp;&nbsp;<input type="text" class="form"  name="name"  ></div>
-		<div class="mb20">发&nbsp;&nbsp;布&nbsp;&nbsp;人:&nbsp;&nbsp;<input type="text" class="form"  name="fbr" value="<?php echo $_SESSION[C('USER_AUTH_KEY_F')]?>" ></div>
-        
-
-        <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">GO</button></div>
-</form>
-
-
-
+            <table class="table">
+				<thead>
+					<tr>
+						<th>
+							名次
+						</th>
+						<th>
+							答题人
+						</th>
+						<th>
+							分数
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+				<?php if(is_array($pm)): $i = 0; $__LIST__ = $pm;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><tr class="success">
+						<td>
+							<?php echo ($i); ?>
+						</td>
+						<td>
+							<?php echo ($li["dtr"]); ?>
+						</td>
+						<td>
+							<?php echo ($li["score"]); ?>
+						</td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				</tbody>
+			</table>
 </div>
-
 <!-- footer start -->
-<!--include file="Index@Public:footer" />
+<footer id="footer">
+  <div class="col-lg-12 col-md-12">
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-footer"  style="text-align:center;"> <spanclass="text-muted">Hello~</span>
+		<div class="sojump_image1">
+        </div>
+        <div class="clean"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <!-- footer end -->
 <!-- 去顶部 --> 
 </body>

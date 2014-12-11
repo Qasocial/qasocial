@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>第一步</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/Css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
 <script src="/Js/jquery.js"></script>
 <script src="/Js/bootstrap.min.js"></script>

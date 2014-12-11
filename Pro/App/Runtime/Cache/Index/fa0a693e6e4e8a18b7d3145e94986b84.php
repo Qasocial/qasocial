@@ -4,7 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
-<title>	QAsocial</title>
+<title>QAsocial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
@@ -39,7 +39,7 @@
 </header>
 <div class="container">
 
-<h1>题目：<?php echo ($wj["name"]); ?></h1>
+<h1>问卷名：<?php echo ($wj["name"]); ?></h1>
 <h1>发布人：<?php echo ($wj["fbr"]); ?></h1>
 
  <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?><h3>题目：<?php echo ($li["title"]); ?></h3>
@@ -57,7 +57,7 @@
 <?php if($score == 0): ?>再接再厉！！！！
 <?php else: ?>
  回答的不错！！！！！<?php endif; ?>
-
+<div style="text-align:center;margin-top:20px;"><a href="/index.php/index/Wj/rank/id/<?php echo ($wj["id"]); ?>" class="btn" >查看排名</a></div>
 </div>
 
 <!-- footer start -->

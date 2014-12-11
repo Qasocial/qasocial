@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>第二步</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/Css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
 <script src="/Js/jquery.js"></script>
 <script src="/Js/bootstrap.min.js"></script>
@@ -45,8 +45,10 @@
 <?php if(is_array($wenti)): $i = 0; $__LIST__ = $wenti;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>标题：<?php echo ($li["title"]); ?>&nbsp;&nbsp;
 A：<?php echo ($li["A"]); ?>&nbsp;&nbsp;
 B：<?php echo ($li["B"]); ?>&nbsp;&nbsp;
-C：<?php echo ($li["C"]); ?>&nbsp;&nbsp;
-D：<?php echo ($li["D"]); ?>&nbsp;&nbsp;
+<?php if($li["C"] == ''): else: ?>
+C：<?php echo ($li["C"]); ?>&nbsp;&nbsp;<?php endif; ?>
+<?php if($li["D"] == ''): else: ?>
+D：<?php echo ($li["D"]); ?>&nbsp;&nbsp;<?php endif; ?>
 排序：<?php echo ($li["paixu"]); ?>
 <a href="/index.php/member/fabu/dwenti/id/<?php echo ($li["id"]); ?>">删除</a><br><?php endforeach; endif; else: echo "" ;endif; ?>
  <form class="form-signin" name="wenjuan" action="<?php echo U('member/fabu/addwenti');?>" method="post" style="max-width: 450px;">

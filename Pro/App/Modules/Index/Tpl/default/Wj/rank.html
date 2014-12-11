@@ -17,44 +17,41 @@
   <!-- 导航结束 --> 
 </header>
 <div class="container">
+
+<h1>问卷名：<{$wj.name}></h1>
+<h1>发布人：<{$wj.fbr}></h1>
+
             <table class="table">
 				<thead>
 					<tr>
 						<th>
-							问卷名
+							名次
 						</th>
 						<th>
-							发布人
+							答题人
 						</th>
 						<th>
-							总分
-						</th>
-						<th>
-							查看问卷
+							分数
 						</th>
 					</tr>
 				</thead>
 				<tbody>
-				<volist name="all" id="li">
+				<volist name="pm" id="li">
 					<tr class="success">
 						<td>
-							<{$li.name}>
+							<{$i}>
 						</td>
 						<td>
-							<{$li.fbr}>
+							<{$li.dtr}>
 						</td>
 						<td>
-							<{$li.fenshu}>
-						</td>
-						<td>
-							<a href="/index.php/index/Wj/detials/id/<{$li.id}>">答题</a>
+							<{$li.score}>
 						</td>
 					</tr>
-					</volist>
+				</volist>
 				</tbody>
 			</table>
 </div>
-
 <!-- footer start -->
 <include file="Public:footer" />
 <!-- footer end -->

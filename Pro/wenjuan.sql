@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2014 年 11 月 19 日 02:26
+-- 生成日期: 2014 年 11 月 19 日 10:15
 -- 服务器版本: 5.5.20
 -- PHP 版本: 5.3.10
 
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `wj_member_user` (
   `username` varchar(15) NOT NULL,
   `password` char(32) NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 --
 -- 转存表中的数据 `wj_member_user`
@@ -41,7 +41,8 @@ INSERT INTO `wj_member_user` (`user_id`, `username`, `password`) VALUES
 (2, 'admin', '96e79218965eb72c92a549dd5a330112'),
 (3, 'admins', '96e79218965eb72c92a549dd5a330112'),
 (5, 'wang', '96e79218965eb72c92a549dd5a330112'),
-(6, 'hao', '96e79218965eb72c92a549dd5a330112');
+(6, 'hao', '96e79218965eb72c92a549dd5a330112'),
+(7, '王英昊', '96e79218965eb72c92a549dd5a330112');
 
 -- --------------------------------------------------------
 
@@ -51,12 +52,12 @@ INSERT INTO `wj_member_user` (`user_id`, `username`, `password`) VALUES
 
 CREATE TABLE IF NOT EXISTS `wj_wenjuan` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) CHARACTER SET latin1 NOT NULL,
-  `fbr` varchar(100) CHARACTER SET latin1 NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `fbr` varchar(100) NOT NULL,
   `fbrid` int(11) NOT NULL,
   `fenshu` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=52 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=53 ;
 
 --
 -- 转存表中的数据 `wj_wenjuan`
@@ -74,7 +75,8 @@ INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`, `fenshu`) VALUES
 (48, '?', 'wang', 5, 45),
 (49, '?', 'wang', 5, 0),
 (50, '?', 'wang', 5, 0),
-(51, '11', 'hao', 6, 0);
+(51, '11', 'hao', 6, 0),
+(52, '我是谁', '王英昊', 7, 0);
 
 -- --------------------------------------------------------
 
@@ -85,11 +87,11 @@ INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`, `fenshu`) VALUES
 CREATE TABLE IF NOT EXISTS `wj_wenti` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `wenjuanid` int(11) NOT NULL,
-  `title` varchar(255) CHARACTER SET latin1 NOT NULL,
-  `A` varchar(255) CHARACTER SET latin1 NOT NULL,
-  `B` varchar(255) CHARACTER SET latin1 NOT NULL,
-  `C` varchar(255) CHARACTER SET latin1 NOT NULL,
-  `D` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `A` varchar(255) NOT NULL,
+  `B` varchar(255) NOT NULL,
+  `C` varchar(255) NOT NULL,
+  `D` varchar(255) NOT NULL,
   `ans` int(10) NOT NULL,
   `paixu` int(11) NOT NULL,
   `wentifenshu` int(10) NOT NULL,
