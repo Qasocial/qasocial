@@ -14,11 +14,31 @@
 <script src="/Js/bootstrap.min.js"></script>
     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2257797174&debug=true" type="text/javascript" charset="utf-8"></script>
 </head><body id="body" >
-<header> 
-  <!-- 导航开始 -->
- 	<include file="Public:header" />
-  <!-- 导航结束 --> 
-</header>
+<div class="headwrap">
+<div class="headin">
+<div class="sojump_logo">
+                    <div class="sojump_image">
+                        <h1>问答社交服务</h1>
+                    </div>
+</div>
+<div id="NMenu">
+                        <ul>
+                            <li ><a href="/" class="indexnav">首&nbsp;&nbsp;&nbsp;&nbsp;页&nbsp;</a></li>
+                            <li ><a href="/index.php/index/wj" class="indexnav">所有问卷</a></li>
+						    <if condition="$_SESSION[C('USER_AUTH_KEY_F')] eq ''">
+                            <li><a href="/index.php/index/logina?id=<{$wj.id}>"  class="indexnav">登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;</a></li>
+							<li  style="border: 0; padding-right: 0;"><a href="/index.php/index/logina/checkreg.html?id=<{$wj.id}>" class="indexnav">注&nbsp;&nbsp;&nbsp;&nbsp;册&nbsp;</a></li>
+							<else />
+						    <li ><a href="/index.php/member/fabu"  class="indexnav">发&nbsp;&nbsp;&nbsp;&nbsp;布&nbsp;</a></li>
+							<li ><a href="/index.php/member" class="indexnav2 "><span class="login">hi,<?php echo $_SESSION[C('USER_AUTH_KEY_F')];?></span></a></li>
+							<li  style="border: 0; padding-right: 0;"><a href="/index.php/index/logina/doLogout">退出登录</a></li>
+							
+							</if>
+                        </ul>
+                    </div>
+
+</div>
+</div>
     <wb:share-button appkey="3DwIoS" addition="simple" type="button"></wb:share-button>
 <div class="container">
 

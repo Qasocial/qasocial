@@ -56,13 +56,21 @@ class WjAction extends CommonAction
           }
         
         $model = M('paiming');
+		$userid=$_SESSION[C('USER_AUTH_KEY_ID')];
+		$result=$model->where("dtrid =$userid ")->find();
+		if($result==0)
+		{
         $model->create();
 		$model->wenjuanid=$wenjuanid;
 		$model->dtr=$_SESSION[C('USER_AUTH_KEY_F')];
-		$model->dtrid=$_SESSION[C('USER_AUTH_KEY_ID')];
+		$model->dtrid=$userid;
 		$model->score=$score;
 		$model->add();
-        
+		} 
+		else
+        {
+		$this->error("你已经答过了");
+        }
 		$this->assign('data',$data);
 		$this->assign('count',$count);
 		$this->assign('right',$i);
