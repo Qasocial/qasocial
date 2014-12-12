@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: w.rdc.sae.sina.com.cn:3307
--- 生成日期: 2014 年 12 月 11 日 22:32
+-- 生成日期: 2014 年 12 月 12 日 21:08
 -- 服务器版本: 5.5.23
 -- PHP 版本: 5.3.3
 
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `wj_wenjuan` (
   `fbrid` int(11) NOT NULL,
   `fenshu` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=58 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=59 ;
 
 --
 -- 转存表中的数据 `wj_wenjuan`
@@ -93,7 +93,8 @@ INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`, `fenshu`) VALUES
 (50, '我是谁', '王英昊', 7, 20),
 (55, '我们是谁', '王英昊', 7, 100),
 (56, '你猜我是谁', '王英昊', 7, 100),
-(57, '呵呵', 'A', 11, 0);
+(57, '呵呵', 'A', 11, 0),
+(58, '哈哈', '王英昊', 7, 20);
 
 -- --------------------------------------------------------
 
@@ -113,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `wj_wenti` (
   `paixu` int(11) NOT NULL,
   `wentifenshu` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=65 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=66 ;
 
 --
 -- 转存表中的数据 `wj_wenti`
@@ -130,4 +131,5 @@ INSERT INTO `wj_wenti` (`id`, `wenjuanid`, `title`, `A`, `B`, `C`, `D`, `ans`, `
 (61, 55, '我是男生吗', '是', '不是', '', '', 1, 1, 50),
 (62, 55, '我年龄', '12', '13', '14', '15', 1, 2, 50),
 (63, 56, '我年龄', '11', '12', '13', '14', 1, 1, 50),
-(64, 56, '我是男生吗', '是', '不是', '', '', 1, 2, 50);
+(64, 56, '我是男生吗', '是', '不是', '', '', 1, 2, 50),
+(65, 58, '行', '12', '1', '', '', 1, 0, 20);

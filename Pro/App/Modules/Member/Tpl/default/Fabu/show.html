@@ -19,12 +19,10 @@
 <div class="container">
 
 
- <form class="form-signin" name="fbr" action="<{:U('member/fabu/add')}>" method="post" style="max-width: 450px;">
+<form class="form-signin" name="fbr" action="<{:U('member/fabu/add')}>" method="post" style="max-width: 450px;">
         <h4  class="mb20"style="font-family:'微软雅黑';font-size:20px;">第一步，添加基本信息</h4>
-		<div class="mb20">问卷名称:&nbsp;&nbsp;<input type="text" class="form"  name="name"  ></div>
-		<div class="mb20">发&nbsp;&nbsp;布&nbsp;&nbsp;人:&nbsp;&nbsp;<input type="text" class="form"  name="fbr" value="<?php echo $_SESSION[C('USER_AUTH_KEY_F')];?>" ></div>
-        
-
+		<div class="mb20"style="font-family:'微软雅黑';font-size:20px;">问卷名称:&nbsp;&nbsp;<input type="text" class="form"  name="name"  ></div>
+		<div class="mb20"style="font-family:'微软雅黑';font-size:20px;">发&nbsp;&nbsp;布&nbsp;&nbsp;人:&nbsp;&nbsp;<input type="text" class="form"  name="fbr" value="<?php echo $_SESSION[C('USER_AUTH_KEY_F')]?>" ></div>
         <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">GO</button></div>
 </form>
 

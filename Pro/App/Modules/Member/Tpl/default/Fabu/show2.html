@@ -23,15 +23,19 @@
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
 <volist name="wenti" id="li">
 标题：<{$li.title}>&nbsp;&nbsp;
-A：<{$li.A}>&nbsp;&nbsp;
-B：<{$li.B}>&nbsp;&nbsp;
+<if condition="$li.A eq ''">
+<else />
+A：<{$li.A}>&nbsp;&nbsp;</if>
+<if condition="$li.B eq ''">
+<else />
+B：<{$li.B}>&nbsp;&nbsp;</if>
 <if condition="$li.C eq ''">
 <else />
 C：<{$li.C}>&nbsp;&nbsp;</if>
 <if condition="$li.D eq ''">
 <else />
 D：<{$li.D}>&nbsp;&nbsp;</if>
-排序：<{$li.paixu}>
+优先级：<{$li.paixu}>&nbsp;&nbsp;
 <a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a><br>
 </volist>
  <form class="form-signin" name="wenjuan" action="<{:U('member/fabu/addwenti')}>" method="post" style="max-width: 450px;">

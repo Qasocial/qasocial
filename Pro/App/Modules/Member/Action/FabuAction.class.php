@@ -32,23 +32,37 @@ class FabuAction extends CommonAction{
 			$model = M('wenjuan');
             $model->create();
 			$model->fbrid=$_SESSION[C('USER_AUTH_KEY_ID')];
-            $id=$model->add();
+			if(empty($model->name))
+			{
+				$this->error('问卷名称不能为空');
+			}
+			else
+			{
+			$id=$model->add();
 			$this->redirect('fabu/second', array('id'=>$id), 1,'跳转到第二步');
+			}
 	}
 	public function addwenti(){
-	/* $wjid=$_POST['wenjuanid'];
-    $m = M('wenjuan')->where("id = $wjid")->find();
-	if($m["fbrid"]!= $_SESSION[C('USER_AUTH_KEY_ID')])
-	$this->error('不是你发布的','/'); */
 			$model = M('wenti');
             $model->create();
-            $id=$model->add();
+			if(empty($model->title))
+			{
+				$this->error('问题名称不能为空');
+			}
+			elseif(empty($model->A)&&empty($model->B)&&empty($model->C)&&empty($model->D))
+			{
+				$this->error('选项不能为空');
+			}
+			else
+			{
+			$id=$model->add();
 			$wenjuanid=$_POST['wenjuanid'];
 			$fenshu=$_POST['wentifenshu'];
 			$tol = M('wenjuan')->where("id=$wenjuanid")->find();
 			$data['fenshu'] = $tol['fenshu'] +$fenshu;
             M('wenjuan')->where("id=$wenjuanid")->save($data);
 			$this->success('问题添加成功');
+			}
 	}
 	public function dwenti(){//delete
 	        $id=$_GET['id'];
