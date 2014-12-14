@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <title>第二步</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Css/bootstrap.min.css">
 <link href="/Css/style.css" rel="stylesheet" media="screen">
 <script src="/Js/jquery.js"></script>
 <script src="/Js/bootstrap.min.js"></script>
@@ -42,11 +42,11 @@
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">问卷名称：<?php echo ($wenjuan["name"]); ?></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">发布人：<?php echo ($wenjuan["fbr"]); ?></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
-<?php if(is_array($wenti)): $i = 0; $__LIST__ = $wenti;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>标题：<?php echo ($li["title"]); ?>
-A：<?php echo ($li["A"]); ?>
-B：<?php echo ($li["B"]); ?>
-C：<?php echo ($li["C"]); ?>
-D：<?php echo ($li["D"]); ?>
+<?php if(is_array($wenti)): $i = 0; $__LIST__ = $wenti;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i;?>标题：<?php echo ($li["title"]); ?>&nbsp;&nbsp;
+A：<?php echo ($li["A"]); ?>&nbsp;&nbsp;
+B：<?php echo ($li["B"]); ?>&nbsp;&nbsp;
+C：<?php echo ($li["C"]); ?>&nbsp;&nbsp;
+D：<?php echo ($li["D"]); ?>&nbsp;&nbsp;
 排序：<?php echo ($li["paixu"]); ?>
 <a href="/index.php/member/fabu/dwenti/id/<?php echo ($li["id"]); ?>">删除</a><br><?php endforeach; endif; else: echo "" ;endif; ?>
  <form class="form-signin" name="wenjuan" action="<?php echo U('member/fabu/addwenti');?>" method="post" style="max-width: 450px;">
@@ -74,6 +74,7 @@ D：<?php echo ($li["D"]); ?>
           <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button></div>
       </form>
         <div style="text-align:center;margin-top:20px;"><a href="/" class="btn" >返回首页</a></div>
+		<div style="text-align:center;margin-top:20px;"><a href="/index.php/index/Wj/detials/id/<?php echo ($wenjuan["id"]); ?>" class="btn" >确认问卷</a></div>
 
 
 </div>

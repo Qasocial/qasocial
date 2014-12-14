@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2014 年 10 月 30 日 09:45
+-- 生成日期: 2014 年 11 月 19 日 02:26
 -- 服务器版本: 5.5.20
 -- PHP 版本: 5.3.10
 
@@ -30,23 +30,18 @@ CREATE TABLE IF NOT EXISTS `wj_member_user` (
   `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(15) NOT NULL,
   `password` char(32) NOT NULL,
-  `email` varchar(32) NOT NULL,
-  `sex` tinyint(1) unsigned NOT NULL,
-  `photo` char(100) NOT NULL,
-  `regtime` int(10) unsigned NOT NULL DEFAULT '0',
-  `regip` char(15) NOT NULL,
-  `islock` tinyint(1) unsigned NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- 转存表中的数据 `wj_member_user`
 --
 
-INSERT INTO `wj_member_user` (`user_id`, `username`, `password`, `email`, `sex`, `photo`, `regtime`, `regip`, `islock`) VALUES
-(2, 'admin', '96e79218965eb72c92a549dd5a330112', '', 0, '', 1414500469, '127.0.0.1', 0),
-(3, 'admins', '96e79218965eb72c92a549dd5a330112', '', 0, '', 1414511096, '127.0.0.1', 0),
-(5, 'wang', '96e79218965eb72c92a549dd5a330112', '', 0, '', 1414586644, '0.0.0.0', 0);
+INSERT INTO `wj_member_user` (`user_id`, `username`, `password`) VALUES
+(2, 'admin', '96e79218965eb72c92a549dd5a330112'),
+(3, 'admins', '96e79218965eb72c92a549dd5a330112'),
+(5, 'wang', '96e79218965eb72c92a549dd5a330112'),
+(6, 'hao', '96e79218965eb72c92a549dd5a330112');
 
 -- --------------------------------------------------------
 
@@ -56,23 +51,30 @@ INSERT INTO `wj_member_user` (`user_id`, `username`, `password`, `email`, `sex`,
 
 CREATE TABLE IF NOT EXISTS `wj_wenjuan` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  `fbr` varchar(100) NOT NULL,
+  `name` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `fbr` varchar(100) CHARACTER SET latin1 NOT NULL,
   `fbrid` int(11) NOT NULL,
+  `fenshu` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=23 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=52 ;
 
 --
 -- 转存表中的数据 `wj_wenjuan`
 --
 
-INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`) VALUES
-(17, '1111', 'admin', 2),
-(18, '1111', 'admin', 10),
-(19, 'sds', 'admin', 2),
-(20, 'TEXT', 'admin', 2),
-(21, '222', '1', 4),
-(22, '222', 'wang', 5);
+INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`, `fenshu`) VALUES
+(40, 'who', 'wang', 5, 10),
+(41, 'xia', 'wang', 5, 35),
+(42, '33', 'wang', 5, 0),
+(43, 'jian', 'wang', 5, 35),
+(44, 'xavier', 'wang', 5, 50),
+(45, '0000', 'wang', 5, 41),
+(46, '?', 'wang', 5, 35),
+(47, '???', 'wang', 5, 0),
+(48, '?', 'wang', 5, 45),
+(49, '?', 'wang', 5, 0),
+(50, '?', 'wang', 5, 0),
+(51, '11', 'hao', 6, 0);
 
 -- --------------------------------------------------------
 
@@ -83,37 +85,32 @@ INSERT INTO `wj_wenjuan` (`id`, `name`, `fbr`, `fbrid`) VALUES
 CREATE TABLE IF NOT EXISTS `wj_wenti` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `wenjuanid` int(11) NOT NULL,
-  `title` varchar(255) NOT NULL,
-  `A` varchar(255) NOT NULL,
-  `B` varchar(255) NOT NULL,
-  `C` varchar(255) NOT NULL,
-  `D` varchar(255) NOT NULL,
+  `title` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `A` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `B` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `C` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `D` varchar(255) CHARACTER SET latin1 NOT NULL,
   `ans` int(10) NOT NULL,
   `paixu` int(11) NOT NULL,
+  `wentifenshu` int(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=56 ;
 
 --
 -- 转存表中的数据 `wj_wenti`
 --
 
-INSERT INTO `wj_wenti` (`id`, `wenjuanid`, `title`, `A`, `B`, `C`, `D`, `ans`, `paixu`) VALUES
-(1, 13, '11111111111111', '11111111111111', '111111111111', '111111111111111', '1111111111111111', 0, 0),
-(2, 13, '11111111111111', '11111111111111', '111111111111', '111111111111111', '1111111111111111', 0, 10),
-(3, 13, '11111111111111', '11111111111111', '111111111111', '111111111111111', '1111111111111111', 0, 4),
-(4, 0, '1111222', '222', '12312', 'dsad', 'dsa', 1, 11),
-(5, 13, '321312', '', '', '', '', 0, 0),
-(6, 13, '12321', '', '', '', '', 0, 1111),
-(7, 14, '111', '', '', '', '', 0, 0),
-(8, 14, '3213', '3213', '1221', '', '', 11, 0),
-(9, 15, 'dd', 'ddsa', 'dsada', 'dsda', 'ddd', 3, 0),
-(11, 16, 'sdasd', 'dsadasd', 'dsadsa', 'dasdas', 'dsada', 1, 0),
-(12, 17, 'sss', '', '', '', '', 1, 0),
-(13, 20, '1111', 'dFDSF', 'FDSFSD', 'FSDFSD', 'FDSF', 1, 111),
-(14, 20, '113213', '3213', '213213', '213213', '333', 2, 11),
-(15, 21, '1', '1', '2', '3', '4', 1, 0),
-(16, 21, '2', '1', '2', '3', '4', 2, 0),
-(17, 22, '1', '', '', '', '', 1, 0);
+INSERT INTO `wj_wenti` (`id`, `wenjuanid`, `title`, `A`, `B`, `C`, `D`, `ans`, `paixu`, `wentifenshu`) VALUES
+(44, 40, 'who', 'wang', 'li', 'a', 'b', 1, 1, 5),
+(45, 40, 'age', '12', '34', '21', '22', 1, 2, 5),
+(46, 41, 'where is here', 'qw', 'ew', 'er', 'fd', 1, 1, 35),
+(49, 43, 'er', 'q', 'a', 'c', 'v', 1, 2, 35),
+(50, 44, 'qw', '21', '12', '23', '23', 3, 3, 20),
+(51, 44, 'where is here', 'harbin', 'jiangsu', 'beijing', 'shanghai', 1, 1, 30),
+(52, 45, '1', '1', '2', '3', '4', 1, 0, 30),
+(53, 45, '2', '1', '2', '3', '4', 1, 0, 11),
+(54, 46, '1', '1', '2', '3', '4', 1, 0, 35),
+(55, 48, '2', '2', '3', '4', '5', 1, 0, 45);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

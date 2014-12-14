@@ -1,1 +1,0 @@
-<?php	return array ( 0 => 'fields_id', 1 => 'field', 2 => 'content', 3 => 'issystem', '_autoinc' => true, '_pk' => 'fields_id', '_type' => array ( 'fields_id' => 'int(10) unsigned', 'field' => 'varchar(30)', 'content' => 'text', 'issystem' => 'tinyint(1)', ), );?>

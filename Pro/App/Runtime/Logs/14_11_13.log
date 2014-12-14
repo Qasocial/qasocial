@@ -1,0 +1,883 @@
+[ 2014-11-13T18:19:39+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005126s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000885s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\35df0d61bb9b2cf03f64104eb4a2e1e8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001272s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005224s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2014-11-13T18:19:51+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005226s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000648s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\35df0d61bb9b2cf03f64104eb4a2e1e8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013841s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2014-11-13T18:19:51+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005680s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000809s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\35df0d61bb9b2cf03f64104eb4a2e1e8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2014-11-13T18:19:52+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004939s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000794s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\35df0d61bb9b2cf03f64104eb4a2e1e8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000906s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004059s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2014-11-13T18:19:54+08:00 ] 0.0.0.0 /index.php/index/wj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.032827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.033098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005289s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000841s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.099344s ]
+SQL: SELECT * FROM `wj_wenjuan` ORDER BY id desc  [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\6fa4c6bbc8ab988bc90e97d724cdc777.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000837s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000774s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003635s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2014-11-13T18:19:56+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005726s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000801s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username E:\wamp\www\App\Runtime\Cache\Index\35df0d61bb9b2cf03f64104eb4a2e1e8.php 第 27 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-11-13T18:19:57+08:00 ] 0.0.0.0 /index.php/index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001862s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024948s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003242s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2014-11-13T18:19:57+08:00 ] 0.0.0.0 /index.php/login/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+
+[ 2014-11-13T18:53:57+08:00 ] 0.0.0.0 /index.php/index/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000837s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003304s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2014-11-13T18:53:57+08:00 ] 0.0.0.0 /index.php/login/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+
+[ 2014-11-13T18:54:06+08:00 ] 0.0.0.0 /index.php/login/checkLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `wj_member_user` [ RunTime:0.174508s ]
+SQL: SELECT * FROM `wj_member_user` WHERE ( `username` = 'wang' ) AND ( `password` = '96e79218965eb72c92a549dd5a330112' ) LIMIT 1   [ RunTime:0.106387s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024131s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2014-11-13T18:54:07+08:00 ] 0.0.0.0 /index.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005172s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000510s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000684s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2014-11-13T18:54:10+08:00 ] 0.0.0.0 /index.php/member/fabu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004914s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000494s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.004991s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.041326s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003686s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2014-11-13T18:55:22+08:00 ] 0.0.0.0 /index.php/member/fabu/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005155s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000879s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005062s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000995s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006179s ]
+SQL: INSERT INTO `wj_wenjuan` (`name`,`fbr`,`fbrid`) VALUES ('0000','wang',5) [ RunTime:0.449419s ]
+
+[ 2014-11-13T18:55:23+08:00 ] 0.0.0.0 /index.php/member/fabu/second/id/45.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004857s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000781s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005559s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000759s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005943s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id = 45 ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.041132s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.007305s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Modules/Member/Tpl/default/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\wamp\www\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined variable: li E:\wamp\www\App\Runtime\Cache\Member\40b20b9581ace2a44d167563ba91e187.php 第 77 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000733s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001054s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004028s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2014-11-13T18:55:40+08:00 ] 0.0.0.0 /index.php/member/fabu/addwenti.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004854s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000628s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005623s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000848s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006021s ]
+SQL: INSERT INTO `wj_wenti` (`title`,`A`,`B`,`C`,`D`,`wentifenshu`,`ans`,`paixu`,`wenjuanid`) VALUES ('1','1','2','3','4',30,1,0,45) [ RunTime:0.137544s ]
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006089s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: UPDATE `wj_wenjuan` SET `fenshu`=30 WHERE ( id=45 ) [ RunTime:0.069112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020782s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000715s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003317s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2014-11-13T18:55:41+08:00 ] 0.0.0.0 /index.php/member/fabu/second/id/45.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004842s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000803s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005194s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000608s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005404s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id = 45 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.005696s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Modules/Member/Tpl/default/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\wamp\www\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000692s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2014-11-13T18:55:43+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/52
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005022s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000798s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006593s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006731s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=52 ) ORDER BY paixu desc  [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.137310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137516s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003735s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001101s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2014-11-13T18:55:53+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/52
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004877s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000611s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005963s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006690s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=52 ) ORDER BY paixu desc  [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2014-11-13T18:56:53+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/52
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005329s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000823s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005871s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=52 ) LIMIT 1   [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006247s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=52 ) ORDER BY paixu desc  [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020283s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000912s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000902s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-11-13T18:57:06+08:00 ] 0.0.0.0 /index.php/member/fabu/addwenti.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.006255s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000756s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005493s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000772s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006043s ]
+SQL: INSERT INTO `wj_wenti` (`title`,`A`,`B`,`C`,`D`,`wentifenshu`,`ans`,`paixu`,`wenjuanid`) VALUES ('2','1','2','3','4',11,1,0,45) [ RunTime:0.132919s ]
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006076s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: UPDATE `wj_wenjuan` SET `fenshu`=41 WHERE ( id=45 ) [ RunTime:0.063493s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000916s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2014-11-13T18:57:08+08:00 ] 0.0.0.0 /index.php/member/fabu/second/id/45.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005468s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000665s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005182s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000505s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006069s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id = 45 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.005720s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Modules/Member/Tpl/default/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\wamp\www\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018378s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-11-13T18:59:19+08:00 ] 0.0.0.0 /index.php/index/wj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005754s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000503s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.007015s ]
+SQL: SELECT * FROM `wj_wenjuan` ORDER BY id desc  [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000962s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004352s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2014-11-13T18:59:21+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/45
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005215s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000723s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006145s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006121s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000743s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2014-11-13T18:59:38+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/53
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005130s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000710s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006819s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=53 ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006277s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=53 ) ORDER BY paixu desc  [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000795s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-11-13T19:00:13+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/53
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005089s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000833s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006451s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=53 ) LIMIT 1   [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006185s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=53 ) ORDER BY paixu desc  [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2014-11-13T19:00:34+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/53
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005379s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000539s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006343s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=53 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006532s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=53 ) ORDER BY paixu desc  [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003662s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-11-13T19:03:59+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/53
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005453s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000640s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006355s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=53 ) LIMIT 1   [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006107s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=53 ) ORDER BY paixu desc  [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2014-11-13T19:04:03+08:00 ] 0.0.0.0 /index.php/member/fabu/second/id/45.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005248s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000462s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_article` [ RunTime:0.005424s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_article`
+SQL: SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5   [ RunTime:0.000529s ]
+ERR: 1146:Table 'wenjuan.wj_article' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_article` WHERE ( ispush=1 and islock=0 ) ORDER BY rand() LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005905s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id = 45 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006656s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Modules/Member/Tpl/default/Public/footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\wamp\www\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2014-11-13T19:04:05+08:00 ] 0.0.0.0 /index.php/index/Wj/detials/id/45
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.007266s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000897s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.005859s ]
+SQL: SELECT * FROM `wj_wenjuan` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `wj_wenti` [ RunTime:0.006605s ]
+SQL: SELECT * FROM `wj_wenti` WHERE ( wenjuanid=45 ) ORDER BY paixu desc  [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001283s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001006s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005508s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2014-11-13T19:10:14+08:00 ] 0.0.0.0 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.004893s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000927s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000968s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004364s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2014-11-13T19:13:01+08:00 ] 0.0.0.0 /index.php/index/wj
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `wj_category` [ RunTime:0.005800s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wj_category`
+SQL: SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5   [ RunTime:0.000760s ]
+ERR: 1146:Table 'wenjuan.wj_category' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `wj_category` WHERE ( isverify=1 and isshow=1 ) LIMIT 5  
+SQL: SHOW COLUMNS FROM `wj_wenjuan` [ RunTime:0.006151s ]
+SQL: SELECT * FROM `wj_wenjuan` ORDER BY id desc  [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020510s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001106s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001776s ]
+
