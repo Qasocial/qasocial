@@ -5,19 +5,11 @@
 class WjAction extends CommonAction
 { 
 	Public function index(){
-<<<<<<< HEAD
         if(!$_SESSION[C('USER_AUTH_KEY_F')]){
 			$this->error("请先登陆");
 		}
         $fbrid=$_SESSION[C('USER_AUTH_KEY_ID')];
         $all=M('wenjuan')->where("fbrid='".$fbrid."'")->order('id desc')->select();
-=======
-	    if(!$_SESSION[C('USER_AUTH_KEY_F')]){
-			$this->error("请先登陆");
-		}
-		$username=$_SESSION[C('USER_AUTH_KEY_F')];
-        $all=M('wenjuan')->where("fbr='".$username."'")->order('id desc')->select();
->>>>>>> 2a269e3352df7a9d3b9bc5ff074accf3bcb84991
         $this->assign('all',$all);
 		//显示模板	
 		$this->display('all');
@@ -41,7 +33,6 @@ class WjAction extends CommonAction
 	    $this->display('rank');
 	}
 	Public function submit(){
-<<<<<<< HEAD
         if(!$_SESSION[C('USER_AUTH_KEY_F')]){
 			$this->error("请先登陆");
 		}
@@ -49,12 +40,6 @@ class WjAction extends CommonAction
 		$wj=M('wenjuan')->where("id=$wenjuanid")->find();
 		$data=M('wenti')->where("wenjuanid=$wenjuanid")->order("paixu desc")->select();
 		$count=M('wenti')->where("wenjuanid=$wenjuanid")->count();
-=======
-	    $id=$_POST['id'];
-		$wj=M('wenjuan')->where("id=$id")->find();
-		$data=M('wenti')->where("wenjuanid=$id")->order("paixu desc")->select();
-		$count=M('wenti')->where("wenjuanid=$id")->count();
->>>>>>> 2a269e3352df7a9d3b9bc5ff074accf3bcb84991
 		$i=0;
 		$score=0;
 		

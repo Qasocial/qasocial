@@ -35,19 +35,9 @@ class FabuAction extends CommonAction{
 			$this->redirect('fabu/second?id='.$id);	
 	}
 	public function addwenti(){
-<<<<<<< HEAD
 			$model = M('wenti');
             $model->create();
 			$id=$model->add();
-=======
-	/* $wjid=$_POST['wenjuanid'];
-    $m = M('wenjuan')->where("id = $wjid")->find();
-	if($m["fbrid"]!= $_SESSION[C('USER_AUTH_KEY_ID')])
-	$this->error('不是你发布的','/'); */
-			$model = M('wenti');
-            $model->create();
-            $id=$model->add();
->>>>>>> 2a269e3352df7a9d3b9bc5ff074accf3bcb84991
 			$wenjuanid=$_POST['wenjuanid'];
 			$fenshu=$_POST['wentifenshu'];
 			$tol = M('wenjuan')->where("id=$wenjuanid")->find();

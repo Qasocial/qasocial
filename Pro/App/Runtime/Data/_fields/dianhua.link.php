@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'link_id', 1 => 'name', 2 => 'url', 3 => 'isverify', '_autoinc' => true, '_pk' => 'link_id', '_type' => array ( 'link_id' => 'int(10) unsigned', 'name' => 'varchar(255)', 'url' => 'varchar(255)', 'isverify' => 'tinyint(1) unsigned', ), );?>

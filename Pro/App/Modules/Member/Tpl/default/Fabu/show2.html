@@ -43,7 +43,6 @@
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">发布人：<{$wenjuan.fbr}></h3>
 <h3  class="mb20"style="font-family:'微软雅黑';font-size:20px;">已填加题目：</h3>
 <volist name="wenti" id="li">
-<<<<<<< HEAD
 题目：<{$li.title}>&nbsp;&nbsp;
 <if condition="$li.A eq ''">
 <else />
@@ -58,14 +57,6 @@ C：<{$li.C}>&nbsp;&nbsp;</if>
 <else />
 D：<{$li.D}>&nbsp;&nbsp;</if>
 优先级：<{$li.paixu}>
-=======
-标题：<{$li.title}>&nbsp;&nbsp;
-A：<{$li.A}>&nbsp;&nbsp;
-B：<{$li.B}>&nbsp;&nbsp;
-C：<{$li.C}>&nbsp;&nbsp;
-D：<{$li.D}>&nbsp;&nbsp;
-排序：<{$li.paixu}>
->>>>>>> 2a269e3352df7a9d3b9bc5ff074accf3bcb84991
 <a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a><br>
 </volist>
  <form class="form-signin" name="wenjuan" action="<{:U('member/fabu/addwenti')}>" method="post" style="max-width: 450px;">
@@ -93,11 +84,7 @@ D：<{$li.D}>&nbsp;&nbsp;
           <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button><a href="/index.php/index/Wj/detials/id/<{$wenjuan.id}>" class="btn" >确认问卷</a></div>
       </form>
         <div style="text-align:center;margin-top:20px;"><a href="/" class="btn" >返回首页</a></div>
-<<<<<<< HEAD
 		
-=======
-		<div style="text-align:center;margin-top:20px;"><a href="/index.php/index/Wj/detials/id/<{$wenjuan.id}>" class="btn" >确认问卷</a></div>
->>>>>>> 2a269e3352df7a9d3b9bc5ff074accf3bcb84991
 
 
 </div>

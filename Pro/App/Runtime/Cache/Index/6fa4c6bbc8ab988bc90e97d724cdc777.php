@@ -51,7 +51,7 @@
 							总分
 						</th>
 						<th>
-							查看问卷
+							查看详情
 						</th>
 					</tr>
 				</thead>
@@ -67,7 +67,7 @@
 							<?php echo ($li["fenshu"]); ?>
 						</td>
 						<td>
-							<a href="/index.php/index/Wj/detials/id/<?php echo ($li["id"]); ?>">答题</a>
+							<a href="/index.php/index/Wj/detials/id/<?php echo ($li["id"]); ?>">详情</a>
 						</td>
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 				</tbody>
