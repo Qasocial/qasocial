@@ -10,5 +10,6 @@
 	//3.开启调试模式
 	define('APP_DEBUG',true);
 	//3应用核心文件(区分大小写，windows不需要区分，但是linux需要)
-	require './ThinkPHP/ThinkPHP.php';
-
+    define('ENGINE_NAME','SAE');
+    require './ThinkPHP/ThinkPHP.php';
+// require_once('saetv2.ex.class.php');

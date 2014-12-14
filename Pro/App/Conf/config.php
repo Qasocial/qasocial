@@ -31,6 +31,7 @@ $b=array(
     'DB_PWD'    => '',  // 密码
     'DB_PORT'   => '3306', // 端口
     'DB_PREFIX' => 'wj_', // 数据库表前缀
+    
 
      /* 模版相关配置 */
     'TMPL_DEFAULT_THEME' => 'default',  //默认模版主题

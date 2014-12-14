@@ -8,10 +8,10 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title><{:R('Siteinfo/info',array('title'),'Widget')}>登陆</title>
+    <title><{:R('Siteinfo/info',array('title'),'Widget')}>登录</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/Css/bootstrap.css" rel="stylesheet">
+    <link href="/Css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/Css/style.css" rel="stylesheet">
@@ -36,16 +36,16 @@ function fleshVerify(type){
     <div class="container">
 
       <form class="form-signin" role="form" action="<{:U('Login/checkLogin')}>" method="post">
-        <h4 class="form-signin-heading" style="font-family:'微软雅黑';font-size:20px;">账号登陆:</h4>
+        <h4 class="form-signin-heading" style="font-family:'微软雅黑';font-size:20px;">账号登录:</h4>
          <input type="text" class="form  mb20"  name="username" placeholder="账号(必填)" required>
           <input type="password" class="form  mb20" name="password" placeholder="密码(必填)" required>
-          <input type="text" class="form  mb20" name="code" placeholder="验证码(必填)" required width="40"
+          <input type="text" class="form  mb20" name="code" placeholder="验证码(必填)" required width='40'
           style="width:200px;display:inline;valign:center;">
           <img id="verifyImg" SRC="__URL__/verify/" onClick="fleshVerify()" border="0" alt="点击刷新验证码" style="cursor:pointer;width:80px;vertical-align:top;" align="absmiddle">
           
 		   <div style="width:50%;"><a href="<{:U('Index/Login/checkreg')}>"  style="float:right" title="注册">注册</a><a href="<{:U('Index/Index/index')}>"style="float:right; margin-right:20px;" title="返回">返回首页</a></div>
 		   <div style="clear:both;" class="mb20"></div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
       </form>
 
     </div>
