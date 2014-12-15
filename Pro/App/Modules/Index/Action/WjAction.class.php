@@ -8,8 +8,8 @@ class WjAction extends CommonAction
         if(!$_SESSION[C('USER_AUTH_KEY_F')]){
 			$this->error("请先登陆");
 		}
-        $username=$_SESSION[C('USER_AUTH_KEY_F')];
-        $all=M('wenjuan')->where("fbr='".$username."'")->order('id desc')->select();
+        $fbrid=$_SESSION[C('USER_AUTH_KEY_ID')];
+        $all=M('wenjuan')->where("fbrid='".$fbrid."'")->order('id desc')->select();
         $this->assign('all',$all);
 		//显示模板	
 		$this->display('all');
@@ -57,7 +57,7 @@ class WjAction extends CommonAction
         
         $model = M('paiming');
 		$userid=$_SESSION[C('USER_AUTH_KEY_ID')];
-		$result=$model->where("dtrid =$userid ")->find();
+		$result=$model->where("dtrid =$userid and wenjuanid=$wenjuanid")->find();
 		if($result==0)
 		{
         $model->create();

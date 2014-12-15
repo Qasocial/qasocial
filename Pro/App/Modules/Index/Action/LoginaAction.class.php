@@ -57,6 +57,7 @@ public function checkreg(){
 }
 public function checkregs(){
 		$wjid=$_POST["wjid"];
+    
 		if($_SESSION["verify"]!=md5($_POST['code'])){
 			$this->error("验证码错误");
 		}
