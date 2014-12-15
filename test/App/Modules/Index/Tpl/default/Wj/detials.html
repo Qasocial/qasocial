@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <html xmlns:wb="http://open.weibo.com/wb">
+<base href="__ROOT__/" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+<title>QAsocial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/Css/bootstrap.min.css">
+<link href="/Css/style.css" rel="stylesheet" media="screen">
+<script src="/Js/jquery.js"></script>
+<script src="/Js/bootstrap.min.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2257797174&debug=true" type="text/javascript" charset="utf-8"></script>
+</head><body id="body" >
+<div class="headwrap">
+<div class="headin">
+<div class="sojump_logo">
+                    <div class="sojump_image">
+                        <!--<h1>问答社交服务</h1>-->
+                    </div>
+</div>
+<div id="NMenu">
+                        <ul>
+                            <li ><a href="/" class="indexnav">首&nbsp;&nbsp;&nbsp;&nbsp;页&nbsp;</a></li>
+                            <li ><a href="/index.php/index/wj" class="indexnav">所有问卷</a></li>
+						    <if condition="$_SESSION[C('USER_AUTH_KEY_F')] eq ''">
+                            <li><a href="/index.php/index/logina?id=<{$wj.id}>"  class="indexnav">登&nbsp;&nbsp;&nbsp;&nbsp;录&nbsp;</a></li>
+							<li  style="border: 0; padding-right: 0;"><a href="/index.php/index/logina/checkreg?id=<{$wj.id}>" class="indexnav">注&nbsp;&nbsp;&nbsp;&nbsp;册&nbsp;</a></li>
+							<else />
+						    <li ><a href="/index.php/member/fabu"  class="indexnav">出&nbsp;&nbsp;&nbsp;&nbsp;题&nbsp;</a></li>
+							<li ><a href="/index.php/member" class="indexnav2 "><span class="login">hi,<?php echo $_SESSION[C('USER_AUTH_KEY_F')];?></span></a></li>
+							<li  style="border: 0; padding-right: 0;"><a href="/index.php/index/logina/doLogout">退出登录</a></li>
+							
+							</if>
+                        </ul>
+                    </div>
+
+</div>
+</div>
+	
+<div class="container">
+<div id="div1"><img src="../images/sea.jpg" /></div>
+<h1>题目：<{$wj.name}></h1>
+<h1>发布人：<{$wj.fbr}></h1>
+           
+ <form action="<{:U('index/Wj/submit')}>" method="post">          
+<volist name="tm" id="li">
+<h1>问题：<{$li.title}></h1>
+         请选择：
+		 <select name="<{$li.id}>">
+		 <option value="1">A:<{$li.A}></option>
+		 <option value="2">B:<{$li.B}></option>
+		 <if condition="$li.C eq ''">
+         <else />
+		 <option value="3">C:<{$li.C}></option></if>
+		 <if condition="$li.D eq ''">
+         <else />
+		 <option value="4">D:<{$li.D}></option></if>
+		 </select>
+</volist>
+<input type="hidden" name="id" value="<{$wj.id}>">
+ <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">提交</button></div>
+ <div style="text-align:center;margin-top:20px;"><wb:share-button appkey="3DwIoS" addition="simple" type="button"></wb:share-button></div>
+</form>
+</div>
+
+
+</body>
+</html>
