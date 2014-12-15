@@ -15,7 +15,7 @@
 <div class="headin">
 <div class="sojump_logo">
                     <div class="sojump_image">
-                        <h1>问答社交服务</h1>
+                        <!--<h1>问答社交服务</h1>-->
                     </div>
 </div>
 <div id="NMenu">
@@ -56,16 +56,16 @@ C：<{$li.C}>&nbsp;&nbsp;</if>
 <if condition="$li.D eq ''">
 <else />
 D：<{$li.D}>&nbsp;&nbsp;</if>
-优先级：<{$li.paixu}>
+优先级：<{$li.paixu}>&nbsp;&nbsp;
 <a href="/index.php/member/fabu/dwenti/id/<{$li.id}>">删除</a><br>
 </volist>
  <form class="form-signin" name="wenjuan" action="<{:U('member/fabu/addwenti')}>" method="post" style="max-width: 450px;">
         
 		 <div class="mb20">问题名称:&nbsp;&nbsp;<input type="text" class="form"  name="title"  ></div>
-		 <div class="mb20">A:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="A"  ></div>
-		 <div class="mb20">B:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="B" ></div>
-		 <div class="mb20">C:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="C"  ></div>
-		 <div class="mb20">D:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="D"  ></div>
+		 <div class="mb20">A:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="A"  ></div>
+		 <div class="mb20">B:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="B" ></div>
+		 <div class="mb20">C:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="C"  ></div>
+		 <div class="mb20">D:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="D"  ></div>
 		 <div class="mb20">问题分数:&nbsp;&nbsp;<input type="text" class="form"  name="wentifenshu"  ></div>
 		 <div class="mb20">answer:&nbsp;&nbsp;
 		 <select name="ans">
@@ -75,13 +75,13 @@ D：<{$li.D}>&nbsp;&nbsp;</if>
 		 <option value="4">D</option>
 		 </select>
 		 </div>
-		 <div class="mb20">排序:&nbsp;&nbsp;<input type="text" class="form"  name="paixu"  ></div>
+		 <div class="mb20">优先级:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form"  name="paixu"  ></div>
 		 <input type="hidden" class="form"  name="wenjuanid"  value="<{$wenjuan.id}>">
 		 
 		
         
 
-          <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button><a href="/index.php/index/Wj/detials/id/<{$wenjuan.id}>" class="btn" >确认问卷</a></div>
+          <div style="text-align:center;margin-top:20px;"><button class="btn" type="submit">添加</button>&nbsp;&nbsp;<a href="/index.php/index/Wj/detials/id/<{$wenjuan.id}>" class="btn" >确认问卷</a></div>
       </form>
         <div style="text-align:center;margin-top:20px;"><a href="/" class="btn" >返回首页</a></div>
 		
