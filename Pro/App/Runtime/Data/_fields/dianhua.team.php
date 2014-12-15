@@ -1,1 +1,0 @@
-<?php	return array ( 0 => 'team_id', 1 => 'team_name', 2 => 'class', 3 => 'description', 4 => 'points', 5 => 'photo', '_autoinc' => true, '_pk' => 'team_id', '_type' => array ( 'team_id' => 'int(11)', 'team_name' => 'varchar(100)', 'class' => 'varchar(100)', 'description' => 'text', 'points' => 'int(11)', 'photo' => 'varchar(300)', ), );?>
